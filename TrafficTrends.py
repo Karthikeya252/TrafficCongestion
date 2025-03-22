@@ -12,9 +12,9 @@ import geopandas as gpd  # For spati3al data
 
 #Load Datasets
 def load_data():
-    traffic_data = pd.read_csv("E:/Datasets/traffic_data.csv")
-    weather_data = pd.read_csv("E:/Datasets/weather_data.csv")
-    accident_data = pd.read_csv("E:/Datasets/accident_data.csv")
+    traffic_data = pd.read_csv("traffic_data.csv")
+    weather_data = pd.read_csv("weather_data.csv")
+    accident_data = pd.read_csv("accident_data.csv")
     return traffic_data, weather_data, accident_data
 
 #Preprocess Data
